@@ -1,3 +1,3 @@
 # 📝 Blog Management System
 
-![Project Screenshot](app/assets/screenshot.png)
+![Project Screenshot](app/assets/screenshots.png)
