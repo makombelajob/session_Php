@@ -3,11 +3,7 @@
     <main class="container">
         <h1 class="text-center text-uppercase fs-1 my-3">This a home page</h1>
         <article>
-            <ul class="list-unstyled d-flex justify-content-between aligns-items-center">
-                <li><a class="text-secondary fs-1 text-decoration-none" href="index.php">Home</a></li>
-                <li><a class="text-secondary fs-1 text-decoration-none" href="login.php">Login</a></li>
-                <li><a class="text-secondary fs-1 text-decoration-none" href="about.php">About</a></li>
-            </ul>
+            <?php require_once 'includes/ul_all.php';?>
         </article>
         <article class="text-center my-5">
             <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" fill="red" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">

@@ -1,6 +1,6 @@
 <?php
 session_start();
-if($_SESSION['user']) : ;?>
+if(isset($_SESSION['user'])) : ;?>
     <?php require_once 'includes/header.php';?>
         <main class="container">
             <ul class="list-unstyled d-flex justify-content-between">
